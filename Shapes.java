@@ -12,9 +12,9 @@ class Triangle extends Shape {
 }
 
 public class Shapes {
-    public static Shape randShape() {
+    public static Shape RandShape() {
         switch((int) (Math.random()*3)) {
-            case 0: return new Cicrle();
+            case 0: return new Circle();
             case 1: return new Square();
             case 2: return new Triangle();
             default: return new Circle();
@@ -24,7 +24,7 @@ public class Shapes {
     public static void main(String[]args) {
         Shapes[] s= new Shape[9];
         for (int i = 0; i < s.length; i++)
-        s[i] = randShape();
+        s[i] = RandShape();
         //make polymorphism method calls:
         for (int i = 0; i < s.length; i++)s[i].draw();
     }
