@@ -66,4 +66,15 @@ System.out.println("The width of the rectangle is"+r4.getWidth());
 System.out.println("The Area of the rectangle is"+r4.getLength());
 System.outprintln("The Area of the rectangle is" +objectArea(r4));
     }
-}
+ //A mrethod to Returning the perimeter ???????? It you to do
+ /*A method that creates an object of class Rectangle and return it
+It must therfore have a Rectangle as a return type
+ */
+ //A method that creates an object and return it
+ public static Rectangle createObject(){
+ Rectangle R = new Rectangle();//Object R using constructor with parameters
+ R.setWidth(10+(int)Math.ceil(Math.random()*60));
+ R.setLength(3+(int)Math.ceil(Math.random()*80));
+ return R;
+ }//End of method
+ }// end of class MainClass
