@@ -1,4 +1,4 @@
-//practising interface
+//practising interface 
 interface Stack
 {
   public void push ( char item );  // inserts an item at the top 
