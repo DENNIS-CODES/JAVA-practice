@@ -1,5 +1,5 @@
  
-//Java Program to Find the Elements that do Not have Duplicates
+//Java Program to Find the Elements that do Not have Duplicates in an array
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
  
